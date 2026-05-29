@@ -4,6 +4,26 @@
 # IMPORTAÇÃO DAS BIBLIOTECAS
 
 import pandas as pd
+import numpy as np
+
+# Create a dummy DataFrame
+np.random.seed(42)
+num_rows = 100
+data = {
+    'Quantidade': np.random.randint(1, 10, num_rows),
+    'Valor': np.random.uniform(10, 100, num_rows),
+    'Categoria': np.random.choice(['A', 'B', 'C', 'D'], num_rows)
+}
+dummy_df = pd.DataFrame(data)
+
+# Save the dummy DataFrame to 'dados.csv'
+dummy_df.to_csv('dados.csv', index=False)
+
+print("Created a dummy 'dados.csv' file.")
+
+# --------------------------------------
+
+import pandas as pd
 import matplotlib.pyplot as plt
 import statistics
 
