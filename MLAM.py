@@ -166,22 +166,3 @@ print(
 print(
     "Os quartis ajudam a entender a distribuição dos valores."
 )
-
-# RELATÓRIO FINAL
-
-print("RELATÓRIO FINAL")
-
-print(
-    "A análise estatística permitiu identificar padrões "
-    "importantes na base de dados."
-)
-
-print(
-    "Os gráficos facilitaram a visualização das distribuições "
-    "e tendências dos dados."
-)
-
-print(
-    "As medidas estatísticas ajudaram na interpretação "
-    "do comportamento das variáveis analisadas."
-)
