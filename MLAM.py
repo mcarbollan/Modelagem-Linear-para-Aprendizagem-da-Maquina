@@ -1,7 +1,5 @@
-# ==========================================
 # GLOBAL SOLUTION 2026.1
 # MODELAGEM LINEAR PARA APRENDIZAGEM DE MÁQUINA
-# ==========================================
 
 # IMPORTAÇÃO DAS BIBLIOTECAS
 
@@ -9,9 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import statistics
 
-# ==========================================
 # LEITURA DA BASE DE DADOS
-# ==========================================
 
 # Exemplo:
 # Substitua "dados.csv" pelo nome da sua base
@@ -82,9 +78,7 @@ plt.ylabel("Frequência")
 
 plt.show()
 
-# ==========================================
 # ANÁLISE ESTATÍSTICA
-# ==========================================
 
 valores = dados["Valor"]
 
@@ -115,9 +109,7 @@ desvio_padrao = valores.std()
 # Quartis
 quartis = valores.quantile([0.25, 0.50, 0.75])
 
-# ==========================================
 # RESULTADOS
-# ==========================================
 
 print("ANÁLISE ESTATÍSTICA")
 
@@ -135,9 +127,7 @@ print(f"Desvio padrão: {desvio_padrao}")
 print("\nQuartis:")
 print(quartis)
 
-# ==========================================
 # INTERPRETAÇÃO DOS RESULTADOS
-# ==========================================
 
 print("INTERPRETAÇÃO")
 
@@ -157,9 +147,7 @@ print(
     "Os quartis ajudam a entender a distribuição dos valores."
 )
 
-# ==========================================
 # RELATÓRIO FINAL
-# ==========================================
 
 print("RELATÓRIO FINAL")
 
